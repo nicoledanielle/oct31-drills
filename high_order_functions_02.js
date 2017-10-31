@@ -23,3 +23,9 @@ function filter(arr, fn) {
 function fn(name){
   return name[0] === 'R';
 }
+
+// //Bonus below
+
+// filter(arr, fn) => {let newArray = []; for (i=0; i<arr.length; i++) {if(arr[i][0]==='R') {newArray.push(arr[i]);}}};
+
+// // fn(name) => {name[0] === 'R';}
